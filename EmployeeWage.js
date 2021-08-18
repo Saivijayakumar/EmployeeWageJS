@@ -68,4 +68,4 @@ let numberOfDaysEmpWorked = (daycount, dailyWage) => {
         return daycount + 1;
     return daycount;
 }
-console.log(`\t 7G \nTotal number of days the Employee Worked : ${mapDaywithDailyWageArray.reduce(numberOfDaysEmpWorked,0)}`);
+console.log(`\t 7G \nTotal number of days the Employee Worked : ${employeesWageArray.reduce(numberOfDaysEmpWorked,0)}`);
